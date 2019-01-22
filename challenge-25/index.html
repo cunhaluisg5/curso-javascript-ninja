@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Challenge-25</title>
+</head>
+<body>
+    <div id="topo">
+        <h1>Formulário</h1>
+    </div>
+    <div class="cabecalho">
+        <h2>Preencher:</h2>
+        <span>Nome:</span>
+        <input type="text" data-js="nome"/>
+        <span>Idade:</span>
+        <input type="text" data-js="idade"/>
+        <span>Estado:</span>
+        <select name="estados" data-js="estado">
+            <option value="MG">MG</option>
+            <option value="SP">SP</option>
+            <option value="RJ">RJ</option>
+            <option value="RS">RS</option>
+        </select>
+    </div>
+    <div class="cabecalho">
+        <h2>Preenchido:</h2>
+        <form action="#" method="POST">
+            <label>Nome:</label>
+            <input type="text" readonly data-js="nomePreenchido"/>
+            <label>Idade:</label>
+            <input type="text" readonly data-js="idadePreenchida"/>
+            <label>Estado:</label>
+            <input type="text" readonly data-js="estadoPreenchido"/>      
+            <button name="enviar" type="submit" data-js="enviar">Enviar</button> 
+        </form> 
+    </div>
+    
+    <script src="challenge-25.js"></script>
+</body>
+</html>

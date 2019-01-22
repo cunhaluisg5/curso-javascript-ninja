@@ -1,0 +1,31 @@
+
+.cabecalho{
+    width: 180px;
+    height: 300px;
+    font-weight: bold;
+    background-color: darkkhaki;
+    padding: 10px;
+    border-color: black;
+    float: left;
+    margin-right: 10px;
+}
+
+#topo{
+    width: 400px;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+button{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: cornflowerblue;
+}
+
+input{
+    margin-bottom: 10px;
+}
